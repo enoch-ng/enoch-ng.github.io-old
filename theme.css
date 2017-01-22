@@ -1,4 +1,4 @@
-h1 {
+h1, h1 a, h1 a:link, h1 a:visited {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
