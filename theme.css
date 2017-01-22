@@ -1,7 +1,7 @@
 h1, h1 a, h1 a:link, h1 a:visited {
-	background-color: #FF0000;
+	background-color: #E8E8E8;
 	text-align: center;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-family: 'Cinzel', sans-serif;
 	font-weight: bold;
 	color: #FFFFFF;
