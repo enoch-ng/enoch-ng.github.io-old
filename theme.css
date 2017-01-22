@@ -4,12 +4,20 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	color: #FFFFFF;
-	text-shadow: 2px 2px 2px #000000;
+	text-shadow: 2px 2px 1px #000000;
 	text-decoration: none;
 }
 
-.tagline {
+#tagline {
 	text-align: center;
+}
+
+#nav {
+	text-align: center;
+}
+
+#nav li {
+	display: inline-block;
 }
 
 /*
