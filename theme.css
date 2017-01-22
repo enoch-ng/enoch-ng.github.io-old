@@ -1,0 +1,189 @@
+h1 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	font-family: sans-serif;
+	font-size: 10pt;
+
+	background-image: url('/images/background.jpg');
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #000000;
+}
+
+#game_logo_div {
+	width: 962px;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+#game_logo {
+	display: block;
+	margin: auto;
+}
+
+#container {
+	position: relative;
+	margin: 0 auto;
+	width: 962px;
+
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+
+	background-color: white;
+	box-shadow: 2.5px 260px 20px 5px black;
+}
+
+#header {
+	background-image: url('/images/background.jpg');
+	background-position-x: center;
+}
+
+#content {
+	padding: 25px 25px 50px;
+	background-color: #FFFFFF;
+	color: #0D0D0D;
+
+	background-image: url('images/page_background.png');
+}
+
+h2 {
+	margin: 0px;
+}
+
+#site_nav {
+	height: 44px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+
+	background: url('images/nav_background.png');
+}
+
+.border_right {
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+#site_nav a, #site_nav a:link, #site_nav a:visited {
+	display: inline-block;
+	background: url('/images/nav_background.png');
+	background-color: #404050;
+	float: left;
+	height: 100% !important;
+	width: 240px !important;
+	margin: inherit;
+	line-height: 44px;
+
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#site_nav a:hover {
+	background: url('/images/nav_background_selected.png');
+	background-color: #1F1F2F;
+}
+
+#account_bar {
+	color: #b2b2b2;
+	font-size: 0.9em;
+	/* background-image: url('/images/account_bar_background.png'); */
+
+	/* border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+
+	height: 0px;
+	line-height: 0;
+
+	border-style: solid;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+	border-width: 13px;
+	border-color: black;
+}
+
+.righty {
+	float: right;
+}
+
+/*
+#account_bar span {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+#account_bar a:link, #account_bar a:active, #account_bar a:visited {
+	color: white;
+	text-decoration: none;
+	margin: 0px;
+}
+
+#registration_form input {
+	display: block;
+}
+
+.form_section {
+	padding-bottom: 1em;
+}
+
+#settings_nav ul {
+	list-style-type: none;
+
+	padding: 0px;
+}
+
+.submit_error {
+	margin: 0px;
+	color: red;
+	font-weight: bold;
+}
+
+#footer {
+	position: absolute;
+	width: 100%;
+	bottom: 9px;
+	height: 25px;
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#footer hr {
+	height: 0px;
+	width: 912px;
+	margin: 0px !important;
+
+	border-bottom-style: solid !important;
+	border-top-style: none !important;
+	border-left-style: none !important;
+	border-right-style: none !important;
+	border-color: black !important;
+}
+
+#disclaimer {
+	font-size: 0.8em;
+}
+
+*/
