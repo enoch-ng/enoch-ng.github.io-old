@@ -6,10 +6,12 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	color: #FFFFFF;
 	text-shadow: 1px 1px .5px #000000;
 	text-decoration: none;
+	
+	background-color: #000000;
 }
 
 #tagline {
-	font-family: 'Cinzel', serif;
+	font-family: 'Montserrat', serif;
 	text-align: center;
 }
 
