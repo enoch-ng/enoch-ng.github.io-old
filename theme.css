@@ -16,7 +16,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 h2 {
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Cinzel', serif;
 	font-size: 3em;
 	margin: 0px;
 }
@@ -31,6 +31,7 @@ h2 {
 }
 
 #nav {
+	text-transform: uppercase;
 	text-align: center;
 }
 
