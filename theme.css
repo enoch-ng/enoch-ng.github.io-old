@@ -33,9 +33,9 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	text-align: center;
 }
 
-#nav li, #nav li a {
+#nav a, #nav a li {
 	display: inline-block;
-	margin: 5px 0px;
+	margin: 5px 0;
 	padding: 5px 1.5%;
 	font-family: 'Montserrat', serif;
 	text-decoration: none;
@@ -43,7 +43,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	text-shadow: 1px 1px .5px #000000;
 }
 
-#nav li:hover {
+#nav a:hover {
 	background-color: #D4D4D4;
 }
 
