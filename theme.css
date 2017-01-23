@@ -38,9 +38,16 @@ h2 {
 
 #nav li, #nav li a {
 	display: inline-block;
+	margin: 5px 0px;
+	padding: 5px 1.5%;
 	font-family: 'Montserrat', serif;
 	text-decoration: none;
 	color: #FFFFFF;
+	text-shadow: 1px 1px .5px #000000;
+}
+
+#nav li:hover {
+	background-color: #CCCCCC;
 }
 
 p {
