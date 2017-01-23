@@ -16,9 +16,10 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 h2 {
-	font-family: 'Cinzel', serif;
+	font-family: 'Great Vibes', cursive;
 	font-size: 3em;
 	margin: 0px;
+	font-weight: normal;
 }
 
 #tagline {
@@ -35,8 +36,11 @@ h2 {
 	text-align: center;
 }
 
-#nav li {
+#nav li, #nav li a {
 	display: inline-block;
+	font-family: 'Montserrat', serif;
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 p {
