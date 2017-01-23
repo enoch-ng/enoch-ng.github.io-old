@@ -1,3 +1,7 @@
+head, body {
+	height: 100%;
+}
+
 body {
 	background-color: #E8E8E8;
 }
@@ -40,7 +44,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 #nav li:hover {
-	background-color: #CCCCCC;
+	background-color: #D4D4D4;
 }
 
 #main_body {
@@ -65,14 +69,16 @@ h2 {
 
 #footer {
 	font-family: 'Crimson Text', serif;
-	font-size: .9em;
+	font-size: 16px;
 	margin: auto;
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: .5em;
+	bottom: 0em;
 	margin: auto;
 	text-align: center;
+
+	background-color: #D4D4D4;
 }
 
 /*
