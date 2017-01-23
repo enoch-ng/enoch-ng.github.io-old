@@ -61,6 +61,7 @@ h2 {
 #content {
 	font-family: 'Crimson Text', serif;
 	font-size: 1.1em;
+	margin-bottom: 3em;
 }
 
 #content li {
@@ -70,15 +71,18 @@ h2 {
 #footer {
 	font-family: 'Crimson Text', serif;
 	font-size: 16px;
-	margin: auto;
-	position: absolute;
+	padding: .5em;
+	position: fixed;
 	left: 0;
 	right: 0;
 	bottom: 0em;
-	margin: auto;
 	text-align: center;
 
 	background-color: #D4D4D4;
+}
+
+#footer p {
+	margin: 0;
 }
 
 /*
