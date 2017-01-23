@@ -1,4 +1,6 @@
 body {
+	font-family: 'Crimson Text', serif;
+	font-size: 1.1em;
 	background-color: #E8E8E8;
 }
 
@@ -50,10 +52,13 @@ h2 {
 	background-color: #CCCCCC;
 }
 
-p {
-	font-family: 'Crimson Text', serif;
-	font-size: 1.1em;
+#main_body {
+	width: 80%;
 }
+
+/*p {
+
+}*/
 
 /*
 html, body {
