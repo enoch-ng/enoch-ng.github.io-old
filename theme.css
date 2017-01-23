@@ -48,7 +48,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 #main_body {
-	margin: 0px 11%;
+	margin: 0px 12%;
 }
 
 h2 {
@@ -61,6 +61,7 @@ h2 {
 #content {
 	font-family: 'Crimson Text', serif;
 	font-size: 1.1em;
+	text-align: justify;
 	margin-bottom: 3em;
 }
 
@@ -71,7 +72,7 @@ h2 {
 #footer {
 	font-family: 'Crimson Text', serif;
 	font-size: 16px;
-	padding: .5em;
+	padding: .4em;
 	position: fixed;
 	left: 0;
 	right: 0;
