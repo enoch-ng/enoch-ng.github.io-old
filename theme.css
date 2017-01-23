@@ -69,8 +69,17 @@ h2 {
 	display: block;
 }
 
+#content p {
+	margin: .5em 0;
+}
+
+.lefty {
+	position: absolute;
+	margin: auto !important;
+}
+
 .righty {
-	float: right;
+	text-align: right;
 }
 
 #footer {
@@ -80,7 +89,7 @@ h2 {
 	position: fixed;
 	left: 0;
 	right: 0;
-	bottom: 0em;
+	bottom: 0;
 	text-align: center;
 
 	background-color: #D4D4D4;
@@ -89,6 +98,7 @@ h2 {
 #footer p {
 	margin: 0;
 }
+
 /*
 html, body {
 	height: 100%;
