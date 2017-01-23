@@ -5,16 +5,28 @@ body {
 h1, h1 a, h1 a:link, h1 a:visited {
 	text-align: center;
 	text-transform: uppercase;
+	font-size: 1.6em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	color: #FFFFFF;
 	text-shadow: 1px 1px .5px #000000;
 	text-decoration: none;
+	letter-spacing: .15em;
+	word-spacing: .3em;
+}
+
+h2 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2em;
 }
 
 #tagline {
-	font-family: 'Montserrat', serif;
+	font-family: 'Cormorant Garamond', serif;
 	text-align: center;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	text-shadow: 1px 1px .5px #000000;
+	word-spacing: .3em;
 }
 
 #nav {
