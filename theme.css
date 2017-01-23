@@ -73,6 +73,10 @@ h2 {
 	margin: .5em 0;
 }
 
+.work-list {
+	margin: 1em 0;
+}
+
 .lefty {
 	position: absolute;
 	margin: auto !important;
@@ -80,6 +84,10 @@ h2 {
 
 .righty {
 	text-align: right;
+}
+
+.summary {
+	font-style: italic;
 }
 
 #footer {
