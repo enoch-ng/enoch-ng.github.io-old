@@ -43,6 +43,10 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	background-color: #CCCCCC;
 }
 
+#main_body {
+	margin: 0px 11%;
+}
+
 h2 {
 	font-family: 'Great Vibes', cursive;
 	font-size: 3em;
@@ -50,13 +54,25 @@ h2 {
 	font-weight: normal;
 }
 
-#main_body {
-	margin: 0px 11%;
-}
-
 #content {
 	font-family: 'Crimson Text', serif;
 	font-size: 1.1em;
+}
+
+#content li {
+	display: block;
+}
+
+#footer {
+	font-family: 'Crimson Text', serif;
+	font-size: .9em;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: .5em;
+	margin: auto;
+	text-align: center;
 }
 
 /*
