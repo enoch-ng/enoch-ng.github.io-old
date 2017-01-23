@@ -69,6 +69,10 @@ h2 {
 	display: block;
 }
 
+.righty {
+	float: right;
+}
+
 #footer {
 	font-family: 'Crimson Text', serif;
 	font-size: 16px;
@@ -85,7 +89,6 @@ h2 {
 #footer p {
 	margin: 0;
 }
-
 /*
 html, body {
 	height: 100%;
