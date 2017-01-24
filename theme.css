@@ -77,13 +77,15 @@ h2 {
 	margin: 1.5em 0;
 }
 
-.lefty {
+.work-title {
 	position: absolute;
 	margin: auto !important;
+	font-weight: 600;
 }
 
-.righty {
+.work-info {
 	text-align: right;
+	font-weight: 600;
 }
 
 #footer {
