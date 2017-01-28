@@ -66,6 +66,11 @@ h2 {
 	margin-bottom: 3em;
 }
 
+.summary {
+	font-style: italic;
+	font-size: .95em;
+}
+
 #content li {
 	display: block;
 }
