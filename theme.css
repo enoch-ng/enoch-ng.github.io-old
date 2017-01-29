@@ -94,6 +94,10 @@ h2 {
 	font-weight: 600;
 }
 
+.work-info, .work-desc, .work-extra {
+	margin: .2em 0 !important;
+}
+
 #footer {
 	font-family: 'Crimson Text', serif;
 	font-size: 16px;
