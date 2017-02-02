@@ -35,21 +35,22 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	text-align: center;
 }
 
-#nav li, #nav a li, #nav a, #nav a li {
+#nav li {
 	display: inline-block;
 	margin: 5px 0;
-	padding: 5px 1.5%;
+	padding: 15px 0;
 }
 
-#nav a, #nav li a {
+#nav li:hover {
+	background-color: #D4D4D4;
+}
+
+#nav a {
+	padding: 15px 1.55vw;
 	font-family: 'Montserrat', serif;
 	text-decoration: none;
 	color: #FFFFFF;
 	text-shadow: 1px 1px .5px #000000;
-}
-
-#nav a:hover, li:hover {
-	background-color: #D4D4D4;
 }
 
 #main_body {
@@ -71,6 +72,7 @@ h2 {
 }
 
 #leopard_licking_its_nose {
+	margin: 2em;
 	text-align: center;
 }
 
