@@ -125,19 +125,22 @@ h2 {
 	margin: 1.5em 0;
 }
 
+.work-list p {
+	margin: .2em 0 !important;
+}
+
 .work-title {
-	position: absolute;
-	margin: auto !important;
+	float: left;
 	font-weight: 600;
 }
 
 .work-info {
-	text-align: right;
+	float: right;
 	font-weight: 600;
 }
 
-.work-info, .work-desc, .work-extra {
-	margin: .2em 0 !important;
+.work-desc {
+	clear: both;
 }
 
 #footer {
