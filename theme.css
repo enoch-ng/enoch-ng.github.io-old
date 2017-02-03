@@ -31,26 +31,58 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 #nav {
-	text-transform: uppercase;
 	text-align: center;
 }
 
 #nav li {
-	display: inline-block;
-	margin: 5px 0;
 	padding: 15px 0;
 }
 
-#nav li:hover {
+#nav > li {
+	display: inline-block;
+	margin: 5px 0;
+}
+
+#nav > li:hover {
 	background-color: #D4D4D4;
 }
 
-#nav a {
+#nav > li > a {
 	padding: 15px 1.55vw;
 	font-family: 'Montserrat', serif;
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #FFFFFF;
 	text-shadow: 1px 1px .5px #000000;
+}
+
+#nav li:hover .dropdown {
+	display: block;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+	margin-top: 15px;
+	padding: 0px 0;
+	background-color: #E0E0E0;
+}
+
+.dropdown li {
+	display: block;
+	text-align: left;
+}
+
+.dropdown li:hover {
+	background-color: #D4D4D4;
+}
+
+.dropdown li a {
+	padding: 15px 1.55vw;
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+	color: #000000;
+	text-decoration: none;
 }
 
 #main_body {
