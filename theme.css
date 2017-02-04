@@ -108,6 +108,13 @@ h2 {
 	text-align: center;
 }
 
+#metronome {
+	display: block;
+	width: 640px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
 .summary {
 	font-style: italic;
 	font-size: .95em;
