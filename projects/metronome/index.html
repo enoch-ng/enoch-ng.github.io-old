@@ -8,16 +8,23 @@
 		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="/theme.css">
-		<script type="text/javascript">
+		<script type="text/javascript" src="metronome.js"></script>
+		<!-- <script type="text/javascript">
 			function metronome() {
 				var DEFAULT_BPM = 120;
+				var DEFAULT_BEATS_PER_MEASURE = 4;
+				
 				var tempo = DEFAULT_BPM;
+				var beats = DEFAULT_BEATS_PER_MEASURE;
+				
 				var t = 0; // Variable for keeping track of time with the metronome. If t = 0, metronome is off.
 				var time_interval = 60000.0 / tempo; // Time to wait between clicks, in ms
 				var click = new Audio('click.wav');
 				var click2 = new Audio('click.wav');
+				var click_low = new Audio('click_low.wav');
+				var click_low2 = new Audio('click_low.wav');
 				var which_click = true; // please replace this with something better later my god
-				var beats_per_measure = 4;
+				var current_beat; // 0 = high, 1/2/3 = low
 				
 				var up = new Image(),
 					down = new Image(),
@@ -26,6 +33,19 @@
 				up.src = 'up.png';
 				down.src = 'down.png';
 				onoff.src = 'onoff.png';
+				
+				function Sprite(width, height, x, y) {
+					this.width = width;
+					this.height = height;
+					this.x = x;
+					this.y = y;
+					
+					this.clicked = function(x, y) {
+						if (y > this.y && y < this.y + this.height && x > this.x && x < this.x + this.width) {
+							return true;
+						}
+					}
+				}
 				
 				var canvas = document.getElementById('metronome');
 				
@@ -38,7 +58,7 @@
 					var x = event.pageX - canvas.offsetLeft,
 						y = event.pageY - canvas.offsetTop;
 						
-					if (y > 0 && y < 64 && x > 0 && x < 64) {
+					if (y > 0 && y < 64 && x > 0 && x < 64) { // Quick way to have click detection until I make classes or smth
 						console.log('Up');
 						tempo += 4;
 						time_interval = 60000.0 / tempo;
@@ -55,12 +75,13 @@
 							console.log('On');
 							t = Date.now();
 							click.play();
-							console.log('*click*');
+							current_beat = 1;
 						}	
 						
 						else { 
 							console.log('Off');
 							t = 0;
+							current_beat = 0;
 						}
 					}
 				}, false);
@@ -69,11 +90,29 @@
 				
 				function draw() {
 					if (t > 0 && Date.now() > t + time_interval) {
-						if (which_click) { click.play(); }
-						else { click2.play(); }
-						console.log('*click*');
+						if (current_beat == 0) {
+							if (which_click) { click.play(); } // Maybe have this logic in a separate function
+							else { click2.play(); }
+							
+							current_beat++;
+						}
+						
+						else {
+							if (which_click) { click_low.play(); } // Maybe have this logic in a separate function
+							else { click_low2.play(); }
+							
+							if (current_beat == beats) {
+								current_beat = 0;
+							}
+							
+							else {
+								current_beat++;
+							}
+						}
+						
 						t += time_interval;
 						which_click = !which_click;
+						
 					}
 				
 					context.clearRect(0, 0, canvas.width, canvas.height);
@@ -86,7 +125,7 @@
 					window.requestAnimationFrame(draw);
 				}
 			}
-		</script>
+		</script> -->
 	</head>	
 	
 	<body onload="metronome();">

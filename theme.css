@@ -16,7 +16,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	color: #FFFFFF;
 	text-shadow: 1px 1px .5px #000000;
 	text-decoration: none;
-	letter-spacing: .15em;
+	letter-spacing: .25em;
 	word-spacing: .3em;
 }
 
@@ -26,12 +26,14 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	font-size: 1.2em;
 	color: #FFFFFF;
 	text-shadow: 1px 1px .5px #000000;
+	letter-spacing: .01em;
 	word-spacing: .3em;
 	font-weight: 500;
 }
 
 #nav {
 	text-align: center;
+	letter-spacing: .02em;
 }
 
 #nav li {
