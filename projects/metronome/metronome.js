@@ -38,12 +38,12 @@ function metronome() {
 		this.play = function() {
 			this.sounds[this.current].play();
 			
-			if (this.current < DEFAULT_REDUNDANT_SOUNDS) {
-				this.current = 0;
+			if (this.current < DEFAULT_REDUNDANT_SOUNDS - 1) {
+				this.current++;
 			}
 
 			else {
-				this.current++;
+				this.current = 0;
 			}
 		}
 
