@@ -59,11 +59,11 @@ function metronome() {
 	}
 
 	var sprites = {
-		up: new Sprite('up.png', 175, 50, 64, 64),
+		up: new Sprite('up.png', 185, 50, 64, 64),
 		down: new Sprite('down.png', 375, 50, 64, 64),
-		onoff: new Sprite('onoff.png', 170, 300, 256, 64),
-		left: new Sprite('left.png', 210, 200, 64, 64),
-		right: new Sprite('right.png', 310, 200, 64, 64) 
+		onoff: new Sprite('onoff.png', 180, 300, 256, 64),
+		left: new Sprite('left.png', 220, 200, 64, 64),
+		right: new Sprite('right.png', 320, 200, 64, 64) 
 	};
 	
 	var sounds = {
@@ -71,7 +71,7 @@ function metronome() {
 		low: new Sound('click_low.wav')
 	};
 
-	var canvas = document.getElementById('metronome');
+	var canvas = document.getElementById('metronome-canvas');
 	
 	if (canvas.getContext) {
 		var context = canvas.getContext('2d');
@@ -140,8 +140,8 @@ function metronome() {
 	
 		context.clearRect(0, 0, canvas.width, canvas.height);
 		
-		context.fillText(tempo + ' BPM', 255, 90);
-		context.fillText(beats_per_measure, 285, 240); 
+		context.fillText(tempo + ' BPM', 265, 90);
+		context.fillText(beats_per_measure, 295, 240); 
 	
 		for (var s in sprites) {
 			context.drawImage(sprites[s].img, sprites[s].x, sprites[s].y);
