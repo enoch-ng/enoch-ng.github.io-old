@@ -3,7 +3,7 @@ head, body {
 }
 
 body {
-	background-color: #E8E8E8;
+	background-color: hsl(0, 0%, 91%);
 }
 
 h1, h1 a, h1 a:link, h1 a:visited {
@@ -13,8 +13,8 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	font-size: 1.6em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
-	color: #FFFFFF;
-	text-shadow: 1px 1px .5px #000000;
+	color: hsl(0, 0%, 100%);
+	text-shadow: 1px 1px .5px hsl(0, 0%, 0%);
 	text-decoration: none;
 	letter-spacing: .25em;
 	word-spacing: .3em;
@@ -24,8 +24,8 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	font-family: 'Cormorant Garamond', serif;
 	text-align: center;
 	font-size: 1.2em;
-	color: #FFFFFF;
-	text-shadow: 1px 1px .5px #000000;
+	color: hsl(0, 0%, 100%);
+	text-shadow: 1px 1px .5px hsl(0, 0%, 0%);
 	letter-spacing: .01em;
 	word-spacing: .3em;
 	font-weight: 500;
@@ -46,7 +46,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 #nav > li:hover {
-	background-color: #D4D4D4;
+	background-color: hsl(0, 0%, 83%);
 }
 
 #nav > li > a {
@@ -55,8 +55,12 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	font-weight: 400;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #FFFFFF;
-	text-shadow: 1px 1px .5px #000000;
+	color: hsl(0, 0%, 100%);
+	text-shadow: 1px 1px .5px hsl(0, 0%, 0%);
+}
+
+#nav > li.current > a {
+	color: hsl(0, 0%, 45%);
 }
 
 #nav li:hover .dropdown {
@@ -68,7 +72,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	position: absolute;
 	margin-top: 15px;
 	padding: 0px 0;
-	background-color: #E0E0E0;
+	background-color: hsl(0, 0%, 88%);
 }
 
 .dropdown li {
@@ -77,14 +81,14 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 .dropdown li:hover {
-	background-color: #D4D4D4;
+	background-color: hsl(0, 0%, 83%);
 }
 
 .dropdown li a {
 	padding: 15px 1.55vw;
 	font-family: 'Crimson Text', serif;
 	font-weight: 600;
-	color: #000000;
+	color: hsl(0, 0%, 0%);
 	text-decoration: none;
 }
 
@@ -163,7 +167,7 @@ h2 {
 	bottom: 0;
 	text-align: center;
 
-	background-color: #D4D4D4;
+	background-color: hsl(0, 0%, 83%);
 }
 
 #footer p {
