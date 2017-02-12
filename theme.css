@@ -32,7 +32,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 #nav {
-	font-size: 0;
+	font-size: 0; /* Quick hack to stop the browser from rendering the spaces between tabs (why does it do this??) */
 	text-align: center;
 	letter-spacing: .02em;
 }
@@ -62,7 +62,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 #nav > li.current > a {
-	color: hsl(0, 0%, 40%);
+	background-color: hsl(0, 0%, 83%);
 }
 
 #nav li:hover .dropdown {
