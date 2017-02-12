@@ -47,6 +47,10 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	margin: 5px 0;
 }
 
+#nav > li.current {
+	background-color: hsl(0, 0%, 83%);
+}
+
 #nav > li:hover {
 	background-color: hsl(0, 0%, 83%);
 }
@@ -59,10 +63,6 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	text-transform: uppercase;
 	color: hsl(0, 0%, 100%);
 	text-shadow: 1px 1px .5px hsl(0, 0%, 0%);
-}
-
-#nav > li.current > a {
-	background-color: hsl(0, 0%, 83%);
 }
 
 #nav li:hover .dropdown {
