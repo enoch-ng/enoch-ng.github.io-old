@@ -3,7 +3,8 @@ head, body {
 }
 
 body {
-	background-color: hsl(0, 0%, 91%);
+	background-color: hsl(0, 0%, 95%);
+	margin: 0px;
 }
 
 h1, h1 a, h1 a:link, h1 a:visited {
@@ -13,26 +14,26 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	font-size: 1.6em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
-	color: hsl(0, 0%, 100%);
-	text-shadow: 1px 1px .5px hsl(0, 0%, 0%);
+	color: hsl(0, 0%, 25%);
+	/*text-shadow: 1px 1px .5px hsl(0, 0%, 50%);*/
 	text-decoration: none;
-	letter-spacing: .25em;
-	word-spacing: .3em;
+	letter-spacing: .2em;
+	word-spacing: .2em;
 }
 
 #tagline {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Montserrat', serif;
 	text-align: center;
 	font-size: 1.2em;
-	color: hsl(0, 0%, 100%);
-	text-shadow: 1px 1px .5px hsl(0, 0%, 0%);
+	color: hsl(0, 0%, 25%);
+	/*text-shadow: 1px 1px .5px hsl(0, 0%, 50%);*/
 	letter-spacing: .01em;
 	word-spacing: .3em;
 	font-weight: 500;
 }
 
 #nav {
-	font-size: 0; /* Quick hack to stop the browser from rendering the spaces between tabs (why does it do this??) */
+	font-size: 0; /* Stop the browser from rendering the spaces between tabs (why does it do this??) */
 	text-align: center;
 	letter-spacing: .02em;
 }
@@ -47,22 +48,27 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	margin: 5px 0;
 }
 
-#nav > li.current {
-	background-color: hsl(0, 0%, 83%);
+#nav > li:hover {
+	background-color: hsl(220, 10%, 90%);
 }
 
-#nav > li:hover {
-	background-color: hsl(0, 0%, 83%);
+#nav > li.current {
+	background-color: hsl(220, 25%, 45%);
 }
 
 #nav > li > a {
 	padding: 15px 2vw;
 	font-family: 'Montserrat', serif;
 	font-weight: 400;
+	letter-spacing: 0.02em;
 	text-decoration: none;
 	text-transform: uppercase;
+	color: hsl(0, 0%, 25%);
+	/*text-shadow: 1px 1px .5px hsl(0, 0%, 0%);*/
+}
+
+#nav > li.current > a {
 	color: hsl(0, 0%, 100%);
-	text-shadow: 1px 1px .5px hsl(0, 0%, 0%);
 }
 
 #nav li:hover .dropdown {
