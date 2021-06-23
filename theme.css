@@ -8,7 +8,7 @@ body {
 }
 
 h1, h1 a, h1 a:link, h1 a:visited {
-	margin: 5% 0 0 0;
+	margin: 4% 0 0 0;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.6em;
@@ -105,11 +105,13 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 #content {
-	font-family: 'Roboto', serif;
+	font-family: 'Noto Sans', serif;
 	font-weight: 300;
 	text-align: justify;
-	/*margin-top: 1em;*/
-	margin-bottom: 3em;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #leopard_licking_its_nose {
@@ -160,7 +162,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 }
 
 #footer {
-	font-family: 'Roboto', serif;
+	font-family: 'Noto Sans', serif;
 	font-size: 14px;
 	padding: .4em;
 	position: fixed;
