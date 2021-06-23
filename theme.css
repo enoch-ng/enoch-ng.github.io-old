@@ -94,7 +94,7 @@ h1, h1 a, h1 a:link, h1 a:visited {
 
 .dropdown li a {
 	padding: 15px 1.55vw;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Roboto', serif;
 	font-weight: 600;
 	color: hsl(0, 0%, 0%);
 	text-decoration: none;
@@ -104,15 +104,8 @@ h1, h1 a, h1 a:link, h1 a:visited {
 	margin: 0px 12%;
 }
 
-h2 {
-	font-family: 'Great Vibes', cursive;
-	font-size: 3em;
-	margin: 0px;
-	font-weight: normal;
-}
-
 #content {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Roboto', serif;
 	font-size: 1.1em;
 	text-align: justify;
 	/*margin-top: 1em;*/
@@ -167,7 +160,7 @@ h2 {
 }
 
 #footer {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Roboto', serif;
 	font-size: 16px;
 	padding: .4em;
 	position: fixed;
